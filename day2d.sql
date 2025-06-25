@@ -1,0 +1,8 @@
+USE LibraryDB;
+DELETE FROM Member
+WHERE MemberID = 4;  
+
+DELETE FROM Loan WHERE BookID = 2;
+DELETE FROM Book WHERE BookID = 2;
+
+
